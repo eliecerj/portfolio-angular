@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SafeHtmlPipe } from './shared/pipes/safehtml.pipe';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SafeHtmlPipe } from './shared/pipes/safehtml.pipe';
     PortfolioComponent,
     AboutComponent,
     ItemComponent,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
